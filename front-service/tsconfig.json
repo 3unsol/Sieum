@@ -1,0 +1,34 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "paths": {
+      "~apis/*": [
+        "src/apis/*"
+      ],
+      "~components/*": [
+        "src/components/*"
+      ],
+      "~nav/*": [
+        "src/nav/*"
+      ],
+      "~container/*": [
+        "src/container/*"
+      ],
+      "~presentation/*": [
+        "src/presentation/*"
+      ],
+      "~recoil/*": [
+        "src/recoil/*"
+      ],
+      "~icons/*": [
+        "src/static/icons/*"
+      ],
+      "~images/*": [
+        "src/static/images/*"
+      ]
+    }
+  }
+}
